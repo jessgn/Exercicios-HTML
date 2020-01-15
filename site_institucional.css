@@ -1,0 +1,72 @@
+body {
+    background-color: lightblue;
+}
+
+#container {
+    width: 100%;
+    background-color: pink;
+	display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.coluna30 {
+    width: 30%;
+}
+
+.coluna70 {
+    width: 70%;
+}
+
+#segunda {
+    padding: 8px;
+}
+
+.segunda-lista {
+	display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.segunda-lista li {
+    padding-right: 8px;
+}
+
+.segunda-lista ul {
+    margin: 20px;
+    padding: 0px;
+}
+
+#menu {
+    padding: 8px;
+}
+
+#menu li {
+    display: inline;
+    padding-right: 8px;
+}
+
+.cor {
+    background-color: purple;
+} 
+.cor li {
+    color: lightblue;
+}
+
+#cabecalho{
+    padding: 0px;
+    margin: 24px;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+#conteudo p {
+    color: purple;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.subtitulo {
+    padding-left: 16px;
+}
+

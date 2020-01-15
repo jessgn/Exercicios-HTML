@@ -1,0 +1,67 @@
+body {
+    background: lightblue;
+}
+
+#container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+
+#autenticacao {
+    border: 2px solid gray;
+    background: white;
+    width: 500px;
+    height: 200px;
+    margin  ;
+}
+
+#autenticacao {
+    font-size: 25px;
+    font-family: cursive; 
+    color: black;
+}
+
+
+#mensagem {
+    font-family: cursive;
+    font-size: 40px;
+    margin: 30px;
+    width: 500px;
+    height: 200px;
+}
+
+
+#login{
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#login > div > div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+
+}
+#login input {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    
+}
+
+#login span {
+    margin-right: 25px;
+
+}
+

@@ -1,0 +1,54 @@
+body {
+    background-color: lightcyan
+}
+
+#container {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+#menu {
+    padding: 8px;
+}
+
+#menu li {
+    display: inline;
+    padding-right: 8px;
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.preto {
+    background-color: black;
+} 
+.preto li {
+    color: white;
+}
+
+#header {
+    padding: 0px;
+    margin: 24px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+#content p {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.subtitulo{
+    padding-left: 16px;
+}
+
+.recuo {
+    padding-left: 24px;
+}
+
+.destaque {
+    color: red;}
